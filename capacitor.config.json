@@ -1,0 +1,11 @@
+{
+  "appId": "app.pawdy.mobile",
+  "appName": "Pawdy",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

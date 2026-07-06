@@ -1,0 +1,17 @@
+{
+  "name": "pawdy-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pawdy 모바일 앱 셸 (Capacitor) — design-system 웹 빌드를 감싼 Android/iOS 앱",
+  "scripts": {
+    "build:web": "node build-web.mjs",
+    "sync": "cap sync android",
+    "apk": "cd android && gradlew.bat assembleDebug",
+    "open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.4.1",
+    "@capacitor/cli": "^8.4.1",
+    "@capacitor/core": "^8.4.1"
+  }
+}
